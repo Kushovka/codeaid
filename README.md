@@ -70,6 +70,7 @@ CodeAid — это корпоративный сайт IT-компании, сп
   <li><strong>Frontend</strong>: <a href="https://github.com/Kushovka">Kirill / GitHub</a></li>
   <li><strong>Backend</strong>: Stepan</li>
   <li><strong>Design</strong>: Arseniy</li>
+  <li><strong>Team Lead</strong>: Nikita</li>
 </ul>
 
 <br><br>
