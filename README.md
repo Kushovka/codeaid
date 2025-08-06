@@ -1,59 +1,66 @@
-# 👉 **[CodeAid](https://codeaidd.netlify.app/)** —NuxtJS + TypeScript + Vue
+# 👉 **[CodeAid](https://codeaidd.netlify.app/)** — NuxtJS + TypeScript + Vue
 <br><br>
-<img width="1707" height="939" alt="image" src="https://github.com/user-attachments/assets/6125c0a5-3869-4b51-bbcf-5d43c84ba2b8" />
+<img width="1833" height="912" alt="7a834e13-29d4-49a5-bd5f-3dad862d043f" src="https://github.com/user-attachments/assets/84053496-57b4-4da0-997c-f03c9d18259b" />
 <br><br>
-<div>
+<div align="center">
   <b>EN:<br/>
 <p>
-Web application for a company providing funeral services in Nizhny Tagil.
+CodeAid is the website of a company that creates IT products and solutions for businesses.
 </p>
 <p>
-The project is being developed as a modern multi-page website with a product catalog, a monument designer and a convenient administrative section.
+This is my first computer project, developed using the following 3 + TypeScript + Tailwind CSS.
 </p>
 </div>
 <br>
-<div>
+<div align="center">
 <b>RU:<br/>
 <p>
-Веб‑приложение для компании, предоставляющей ритуальные услуги в г. Нижний Тагил.  
+CodeAid — сайт компании, создающей IT‑продукты и решения для бизнеса. 
 </p>
   <p>
-    Проект разрабатывается как современный многостраничный сайт с каталогом товаров, конструктором памятников и удобной административной частью.
+    Это мой первый коммерческий проект, выполненный на стеке Nuxt 3 + TypeScript + Tailwind CSS. 
   </p>
 </div>
+  <br/>
+  
+  <div align="center">
+    
+  > ⚠️ Проект не завершён, так как я покинул компанию. Однако код и архитектура сайта полностью рабочие и могут быть доработаны.
+  </div>
+  
+  <br/>
 <br>
 <h1>⚙️ Tech Stack</h1>
 <br>
 <div align="center">
-  <img src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
-   <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white"/>
-   <img src="https://img.shields.io/badge/three.js-%23000000.svg?style=for-the-badge&logo=three.js&logoColor=%234CC1D3"/>
+<img src="https://img.shields.io/badge/Nuxt-00DC82.svg?style=for-the-badge&logo=nuxtdotjs&logoColor=white" alt="Nuxt.js"/>
+  <img src="https://img.shields.io/badge/Vue.js-35495E.svg?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Netlify-00C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"/>
 </div>
 <br>
 
-<h1>🚀 Description</h1>
+<h1>📝 Description</h1>
 <br><br>
-<h3>Сайт помогает клиентам:</h3>
-<ul>
-  <li>Выбрать памятник из каталога, фильтровать и сравнивать</li>
-  <li>Перейти в 3D‑конструктор памятников (индивидуальный выбор комплектации)</li>
-  <li>Ознакомиться с услугами и ценами</li>
-  <li>Сделать заказ или оставить заявку онлайн</li>
-  <li>Получить консультацию через форму обратной связи</li>
-</ul>
+<div align="center">
+CodeAid — это корпоративный сайт IT-компании, специализирующейся на разработке цифровых продуктов, мобильных приложений и веб-сервисов.  
+Проект выполнен с нуля на современном стеке — Nuxt 3, Vue 3, TypeScript и Tailwind CSS.  
+Он представляет компанию в интернете, содержит информацию об услугах, ценностях, подходе к работе и форму обратной связи.
+
+Этот сайт — мой первый коммерческий проект. Хоть я и покинул команду до его завершения, архитектура и кодовая база готовы к масштабированию и доработке.
+</div>
 <br><br>
 
 <h1>🚀 Features</h1>
 <br><br>
 <ul>
-  <li>Большой каталог товаров с фильтрацией и сортировкой</li>
-  <li>Страница товара с галереей изображений</li>
-  <li>3D‑конструктор памятников</li>
-  <li>Адаптивный дизайн под все устройства</li>
-  <li>SSR для ускорения загрузки и SEO</li>
-  <li>Удобная админ‑часть (планируется/в разработке)</li>
+  <li><strong>Многостраничная структура</strong> — реализованы отдельные страницы для главной, услуг, команды и контактов</li>
+  <li><strong>Чистый UI с Tailwind CSS</strong> — быстрый, адаптивный и современный дизайн</li>
+  <li><strong>Nuxt 3 + Vue 3 + TypeScript</strong> — мощная архитектура и строгая типизация</li>
+  <li><strong>Оптимизированная сборка</strong> — SSR и быстрая загрузка страниц</li>
+  <li><strong>Адаптивная верстка</strong> — корректное отображение на всех устройствах</li>
+  <li><strong>Готов к доработке</strong> — легко расширяемый код и модульная структура</li>
 </ul>
 <br><br>
 
@@ -70,9 +77,9 @@ The project is being developed as a modern multi-page website with a product cat
 <h1>📦 Installation</h1>
 
 ```bash
-git clone https://github.com/Kushovka/requiem.git
+git clone https://github.com/Kushovka/codeaid.git
 
-cd requiem
+cd codeaid
 
 npm install
 
@@ -80,22 +87,6 @@ npm run dev
 ```
 
 
-# 🚨 Disclaimer
-<br><br>
-<div>
-   <b>EN:<br/>
-  <p>
-    This project is a personal, non-commercial work created for portfolio purposes only. All brand names, images, and content are used for demonstration and educational purposes. I do not claim ownership of any third-party assets.
-  </p>
-</div>
-<br>
-<div>
-    <b>RU:<br/>
-  <p>
-    Этот проект является личной некоммерческой работой, созданной исключительно для портфолио. Все названия брендов, изображения и контент используются в демонстрационных и учебных целях. Я не претендую на права собственности на сторонние материалы.
-  </p>
-</div>
-<br>
 <h1>☎️ Connect with me </h1>
  <br>
     <div align="center">
