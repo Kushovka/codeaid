@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <div>
+  <main>
     <Hero />
     <Mission />
     <Adv />
@@ -17,5 +17,5 @@
     <Steps />
     <FAQ />
     <Contact />
-  </div>
+  </main>
 </template>

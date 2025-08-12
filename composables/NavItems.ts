@@ -1,25 +1,32 @@
 type NavItem = {
-  title: string
-}
+  title: string;
+  href: string;
+};
 const navItems: NavItem[] = [
   {
-    title: 'Главная'
+    title: "Главная",
+    href: "/",
   },
   {
-    title: 'Услуги'
+    title: "Услуги",
+    href: "/services",
   },
   {
-    title: 'Проекты'
+    title: "Проекты",
+    href: "/project",
   },
   {
-    title: 'Новости'
+    title: "Новости",
+    href: "/news",
   },
   {
-    title: 'FAQ'
+    title: "FAQ",
+    href: "/faq",
   },
   {
-    title: 'Контакты'
-  }
-]
+    title: "Контакты",
+    href: "/contact",
+  },
+];
 
-export default navItems
+export default navItems;
