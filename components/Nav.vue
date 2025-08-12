@@ -35,9 +35,9 @@ onUnmounted(() => {
     <div
       class="container mx-auto flex items-center justify-between py-[18px] sm:px-[30px] px-[14px]"
     >
-      <div>
+      <NuxtLink to="/" class="cursor-pointer">
         <img src="/public/images/codeaid.svg" alt="" />
-      </div>
+      </NuxtLink>
       <div
         class="lg:flex hidden items-center justify-center lg:gap-[40px] md:gap-[10px]"
       >
@@ -72,7 +72,7 @@ onUnmounted(() => {
             <img
               v-else
               src="/images/navItems/close.svg"
-              class="w-full"
+              class="h-[24px]"
               alt=""
             />
           </button>
@@ -85,9 +85,13 @@ onUnmounted(() => {
       >
         <div class="flex flex-col items-center gap-[20px] py-[20px]">
           <div v-for="(item, index) in navItems" :key="index">
-            <h1 class="text-[16px] font-medium text-black03 cursor-pointer">
+            <NuxtLink
+              :to="item.href"
+              :class="route.path === item.href ? 'text-blue01' : 'text-black03'"
+              class="text-[16px] font-medium text-black03 cursor-pointer"
+            >
               {{ item.title }}
-            </h1>
+            </NuxtLink>
           </div>
         </div>
       </div>
