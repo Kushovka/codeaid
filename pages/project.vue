@@ -1,6 +1,11 @@
-<!-- pages/project.vue -->
+<script setup lang="ts">
+import Description from "./project/Description.vue";
+import Hero from "./project/Hero.vue";
+</script>
+
 <template>
-  <div class="container py-[100px]">
-    <h1>Project page coming soon...</h1>
-  </div>
+  <main>
+    <Hero />
+    <Description />
+  </main>
 </template>
